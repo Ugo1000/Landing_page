@@ -204,6 +204,7 @@ strong {
 footer {
   background-color: #1f2937;
   margin-top: 50px;
+  padding: 10px;
   height: 50px;
   color: #e5e7eb;
   display: flex;
