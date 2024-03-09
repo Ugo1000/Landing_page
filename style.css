@@ -29,9 +29,21 @@ ul {
   display: flex;
   list-style-type: none;
 }
+
 li {
+  font-size: 20px;
   margin: 0 10px;
 }
+
+a {
+  /* Remove the under-line from the nav bar  */
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 600;
+}
+
 .hero_section {
   width: 80%;
   margin: 100px 0;
@@ -112,8 +124,90 @@ img {
 }
 
 .description {
-  font-weight:400;
+  font-weight: 400;
   color: #5e6d81;
   text-align: center;
   margin-top: 5px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  height: 250px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 50px 0;
+}
+
+blockquote {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic light;
+  padding: 0px 99px;
+}
+strong {
+  margin: 0 50px;
+  font-weight: bold;
+}
+
+.action-container {
+  color: #f9faf8;
+  background-color: #007bff; /* Blue background */
+  padding: 20px;
+  /* Center the container */
+  margin: 0 auto;
+  /* Set maximum width */
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.action {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action h3 {
+  margin: 0;
+}
+
+.action p {
+  margin-top: 10px;
+}
+/*Set maximum width*/
+.action button {
+  align-self: flex-end;
+  margin-top: auto; /* Push the button to the end */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #f9faf8;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  border: 2px solid #ffff;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.action button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #1f2937;
+  margin-top: 50px;
+  height: 50px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
