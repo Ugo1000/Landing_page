@@ -202,13 +202,14 @@ strong {
 }
 
 footer {
-  background-color: #1f2937;
   margin-top: 50px;
-  padding: 10px;
-  height: 50px;
+  font-family: inherit;
+  text-align: center;
   color: #e5e7eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #1f2937;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
 }
